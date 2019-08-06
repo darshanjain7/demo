@@ -24,6 +24,7 @@ function _wp_admin_bar_init() {
 	global $wp_admin_bar;
 
 	if ( ! is_admin_bar_showing() ) {
+		$x = 1;
 		return false;
 	}
 
